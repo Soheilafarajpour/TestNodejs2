@@ -1,8 +1,9 @@
 {
   "name": "TestNodejs2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "node app ",
   "main": "test1.js",
+  "test":"mocha ./test --recursive",
   "scripts": {
   "start": "node test1.js"
 },
@@ -13,7 +14,12 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
+  "url": "",
+  "dependencies": {
+    "chai": "4.1.2",
+    "mocha": "4.1.0"
+  }
 },
   "homepage": ""
 }
+
